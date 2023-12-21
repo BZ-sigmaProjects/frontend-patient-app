@@ -131,7 +131,7 @@ import {
           </table>
           {/* pagination */}
 
-        <div className="w-full bg-white rounded-md flex items-center justify-end gap-2">
+        <div className="mt-5 w-full bg-white rounded-md flex items-center justify-end gap-2">
           <button
             onClick={() => {
               table.previousPage();

@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery} from '@reduxjs/toolkit/query/react';
 
-type patientCreate = {
+type atientCreate = {
     cin: string,
     firstName: string,
     lastName: string,

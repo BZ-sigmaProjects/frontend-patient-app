@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { useEffect, useState, useContext } from 'react';
-import { useGetPatientsQuery } from "../api/apiSlice";
+import { useGetPatientsQuery } from "../../api/apiSlice";
 import Loader from "react-js-loader";
 
-import List from '../sharedComponent/list';
-import { colors } from '../utils/color/color';
-import { UserContext } from '../useContext/userContext';
+import List from '../../sharedComponent/list';
+import { colors } from '../../utils/color/color';
+import { UserContext } from '../../useContext/userContext';
 
 type patient = {
   cin: string,

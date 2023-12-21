@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import * as React from 'react'
 import Header from './layout/header';
-import Loader from "react-js-loader";
 import { UserContext } from './useContext/userContext';
 import { RouterProvider } from "react-router-dom";
 import { router } from './router/router'
@@ -53,7 +52,7 @@ function App() {
       <div className='overflow-y-auto w-full h-screen min-w-600 bg-global-svg bg-center bg-no-repeat bg-cover 
         flex flex-col place-content-center justify-items-center items-center px-10 pt-10 over pb-20'>
         {user && !isLoading &&
-        <div className='w-full h-full flex flex-col max-w-1800'>
+        <div className='w-full h-full flex flex-col max-w-1800 -mt-8'>
           <Header date={date} time={time} fullName={user.firstName+' '+user?.lastName} numBox={user.numBox}/>
           <RouterProvider router={router} />
         </div>

@@ -1,6 +1,6 @@
 import * as React from 'react'
-import AddPatientButton from '../layout/addPatientButton';
-import ListPatientsComponent from '../components/listPatientsComponent';
+import AddPatientButton from '../../layout/addPatientButton';
+import ListPatientsComponent from '../listPatient/listPatientsComponent';
 import { Link } from "react-router-dom";
 
 

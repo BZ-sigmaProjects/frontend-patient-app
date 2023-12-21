@@ -11,7 +11,7 @@
   I've used Redux toolkit, Redux toolkit query to :
   - get list of patients 
   - add a new patient, 
-  the table of patients will automaticaly refresh
+  the table of patients will automaticaly be refreshed
 
 ---
 

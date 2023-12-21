@@ -1,8 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 
-import AddPatientScreen from '../screens/addPatientScreen';
-import ListPatientScreen from '../screens/listPatientsScreen';
-import ProfilePatientScreen from '../screens/profilePatientScreen';
+import AddPatientScreen from '../screens/addPatient/addPatientScreen';
+import ListPatientScreen from '../screens/listPatient/listPatientsScreen';
+import ProfilePatientScreen from '../screens/profilePatient/profilePatientScreen';
 
 
 export const router = createBrowserRouter([
