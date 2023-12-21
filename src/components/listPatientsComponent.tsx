@@ -42,7 +42,7 @@ type patient = {
 
     return (
       <div className="h-full w-full ">
-        {!isLoading && listPatient &&<List data={listPatient}/>}
+        {!isError&&!isLoading && listPatient &&<List data={listPatient}/>}
         {isLoading && <Loader type="spinner-circle" bgColor={colors.darkBlue} color={colors.darkBlue} title={"En cours de téléchargement"} size={100} />}
         {isError && <div className='w-full text-red text-center font-bold	text-base'> Un problème est survenu </div> }
       </div>
