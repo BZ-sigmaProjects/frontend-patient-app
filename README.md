@@ -1,13 +1,14 @@
 # React + TypeScript + Vite
 
 **NOTE**
+
   I've used All technologies: 
   - Tailwind css
   - Redux toolkit, Redux toolkit query
   - React Js
   - Typescript
 
-  I've Redux toolkit, Redux toolkit query to :
+  I've used Redux toolkit, Redux toolkit query to :
   - get list of patients 
   - add a new patient, 
   I still need to work to automaticaly refresh table of patients, please refresh it to see the new patient.
