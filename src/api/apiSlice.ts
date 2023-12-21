@@ -24,7 +24,7 @@ export const apiSlice = createApi({
         getPatients: builder.query({
             query: () => '/patients',
             transformResponse: res => res.map(e=> {e.isAdherent = e.isAdherent ? 'Oui' : 'Non'; return e}),
-            providesTag: ['Patient']
+            providesTags: ['Patient']
         }),
         addPatient: builder.mutation({
             query: (patient:patientCreate) => ({

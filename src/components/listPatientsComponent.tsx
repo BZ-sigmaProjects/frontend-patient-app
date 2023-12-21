@@ -34,7 +34,7 @@ type patient = {
      
     useEffect(()=>{
       if(data){
-        console.log('use effect lis',  data)
+        console.log('use effect list',  data)
         // const dataList:patient[] = data?.map((e:patient)=>{console.log(e);  e.isAdherent = e.isAdherent ? 'Oui' : 'Non'; return e})
         setListPatient(data)
       }
